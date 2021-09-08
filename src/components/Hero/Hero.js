@@ -8,8 +8,8 @@ import {
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
-const Hero = (props) => (
-  <Section row nopading>
+const Hero = () => (
+  <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
         Hello <br />
