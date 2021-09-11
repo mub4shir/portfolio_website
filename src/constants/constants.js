@@ -3,7 +3,7 @@ export const projects = [
     title: 'EdTech-Management API',
     description:
       'Backend API for EdTech-Management, which is a platform, Where Schools are registered, along with their Students.',
-    image: '/images/1.png',
+    image: '/images/1.webp',
     tags: ['Mongo', 'Express', 'Node'],
     source: 'https://github.com/mub4shir/EdTech-Management',
     visit: 'https://github.com/mub4shir/EdTech-Management',
@@ -13,7 +13,7 @@ export const projects = [
     title: 'Personal Portfolio',
     description:
       'A portfolio is a compilation of materials that exemplifies your beliefs, skills, qualifications, education, training and experiences. It provides insight into your personality and work ethic.',
-    image: '/images/2.png',
+    image: '/images/2.webp',
     tags: ['React', 'JavaScript'],
     source: 'https://github.com/mub4shir/portfolio_website',
     visit: 'https://github.com/mub4shir/portfolio_website',
