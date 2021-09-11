@@ -1,3 +1,3 @@
 ## Personal Portfolio
 
-![Screenshot](./public/images/2.png)
+![Screenshot](./public/images/2.webp)
