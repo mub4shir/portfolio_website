@@ -19,7 +19,7 @@ import {
   SectionTitle,
 } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
-// const prefix = '/portfolio_website';
+
 const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
