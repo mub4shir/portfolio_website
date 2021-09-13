@@ -19,16 +19,16 @@ export const projects = [
     visit: 'https://github.com/mub4shir/portfolio_website',
     id: 1,
   },
-  // {
-  //   title: 'WebRTC App',
-  //   description:
-  //     "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-  //   image: '/images/3.jpg',
-  //   tags: ['React', 'WebRTC'],
-  //   source: 'https://google.com',
-  //   visit: 'https://google.com',
-  //   id: 2,
-  // },
+  {
+    title: 'Hotel BT',
+    description:
+      'A simple hotel website which showcases the features of the hotel BT, which has tons of low cost and free activities to make your holiday funds last!',
+    image: '/images/3.webp',
+    tags: ['HTML', 'CSS'],
+    source: 'https://github.com/mub4shir/HBT',
+    visit: 'https://github.com/mub4shir/HBT',
+    id: 2,
+  },
   // {
   //   title: 'Unichat',
   //   description:
