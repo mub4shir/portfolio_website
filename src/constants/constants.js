@@ -42,7 +42,9 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2020, text: 'Started my journey' },
+  { year: 2016, text: 'Started, B.Tech in Information Technology Engineering' },
+  { year: 2020, text: 'Graduated' },
+  { year: 2020, text: 'Started my journey as SDE' },
   {
     year: 2021,
     text: 'Started Internship at Newton School for Full-Stack Web Development',
