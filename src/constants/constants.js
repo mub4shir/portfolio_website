@@ -21,7 +21,8 @@ export const projects = [
   },
   {
     title: 'Quran Verse',
-    description: 'Random Quran Verse Generator',
+    description:
+      ' It’s an application that fetches a new random verse from quran each time a button is pressed and displays it in the browser.',
     image: '/images/4.webp',
     tags: ['HTML', 'CSS', 'Vanilla JS'],
     source: 'https://quran-verse-b62b60.netlify.app/',
