@@ -27,6 +27,16 @@ export const projects = [
     tags: ['HTML', 'CSS', 'Vanilla JS'],
     source: 'https://quran-verse-b62b60.netlify.app/',
     visit: 'https://github.com/mub4shir/Random-Quran-Verse-Generator',
+    id: 2,
+  },
+  {
+    title: 'Weather App',
+    description:
+      ' A simple weather app that allows you to get current weather information, based on the city you enter and current location as default.',
+    image: '/images/5.webp',
+    tags: ['HTML', 'CSS', 'Vanilla JS'],
+    source: 'https://github.com/mub4shir',
+    visit: 'https://github.com/mub4shir',
     id: 3,
   },
   {
@@ -37,8 +47,9 @@ export const projects = [
     tags: ['HTML', 'CSS'],
     source: 'https://focused-curie-8db7fa.netlify.app/',
     visit: 'https://github.com/mub4shir/HBT',
-    id: 2,
+    id: 4,
   },
+
   // {
   //   title: 'Unichat',
   //   description:
@@ -52,7 +63,7 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2016, text: 'Started, B.Tech in Information Technology Engineering' },
+  { year: 2016, text: 'Started, B.Tech in Information Engineering' },
   { year: 2020, text: 'Graduated' },
   { year: 2020, text: 'Started my journey as SDE' },
   {
