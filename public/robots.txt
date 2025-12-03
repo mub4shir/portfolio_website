@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://mubashlr.vercel.app
+
+# Sitemaps
+Sitemap: https://mubashlr.vercel.app/sitemap.xml
