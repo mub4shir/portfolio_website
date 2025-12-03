@@ -1,11 +1,29 @@
-import React from 'react'
+// Button.js
+import React from "react";
+import { ButtonBack, ButtonFront } from "./index";
 
-import { ButtonBack, ButtonFront } from './index'
-
-const Button = (props) => (
-  <ButtonBack alt={props.alt} form={props.form} disabled={props.disabled}>{props.children}
-    <ButtonFront alt={props.alt} onClick={props.onClick} disabled={props.disabled}>{props.children}</ButtonFront>
+const Button = ({
+  children,
+  type = "button",
+  alt,
+  form,
+  disabled,
+  onClick,
+  as,
+  href,
+}) => (
+  <ButtonBack as={as} href={href} $alt={alt} $form={form} $disabled={disabled}>
+    <ButtonFront
+      type={type}
+      onClick={onClick}
+      disabled={disabled}
+      $alt={alt}
+      aria-disabled={disabled || undefined}
+    >
+      {children}
+    </ButtonFront>
+    {children}
   </ButtonBack>
 );
 
-export default Button
+export default Button;

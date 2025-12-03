@@ -1,64 +1,71 @@
-import React from 'react';
-import {
-  DiCode,
-  DiFirebase,
-  DiJava,
-  DiJavascript,
-  DiNodejs,
-  DiReact,
-  DiZend,
-} from 'react-icons/di';
+import React from "react";
+import { DiReact, DiFirebase, DiJava } from "react-icons/di";
 import {
   Section,
   SectionDivider,
   SectionText,
   SectionTitle,
-} from '../../styles/GlobalComponents';
+} from "../../styles/GlobalComponents";
 import {
   List,
   ListContainer,
   ListItem,
   ListParagraph,
   ListTitle,
-} from './TechnologiesStyles';
+  IconWrap,
+} from "./TechnologiesStyles";
 
 const Technologies = () => (
   <Section id="tech">
     <SectionDivider />
-    <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range of technologies in web development world. From
-      Back-end To Design
+      I design and build backend-heavy, low-latency, production-grade systems.
+      My work spans distributed services, data modeling, ETL, cloud infra, and
+      performance-oriented backend engineering.
     </SectionText>
+
     <List>
+      {/* Backend & Systems */}
       <ListItem>
-        <DiReact size="3rem" />
+        <IconWrap>
+          <DiFirebase size="2.2rem" />
+        </IconWrap>
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>Backend & Systems</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            React.js
+            Node.js, Rust, Go, Java; microservices, REST/GraphQL, low-latency
+            systems, distributed systems, multithreading, sockets, queues,
+            caching, API design, system architecture.
           </ListParagraph>
         </ListContainer>
       </ListItem>
+
+      {/* Databases & Infra */}
       <ListItem>
-        <DiFirebase size="3rem" />
+        <IconWrap>
+          <DiJava size="2.2rem" />
+        </IconWrap>
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
+          <ListTitle>Data & Infrastructure</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node.js and Databases
+            PostgreSQL, MongoDB (adv. aggregation), Redis, Elasticsearch; AWS,
+            Lambda, Azure, Docker, CI/CD, Linux systems, monitoring +
+            observability.
           </ListParagraph>
         </ListContainer>
       </ListItem>
+
+      {/* Frontend */}
       <ListItem>
-        <DiJava size="3rem" />
+        <IconWrap>
+          <DiReact size="2.2rem" />
+        </IconWrap>
         <ListContainer>
-          <ListTitle>Programming</ListTitle>
+          <ListTitle>Frontend</ListTitle>
           <ListParagraph>
-            Experience wirh <br />
-            Java,JavaScript and C++
+            React, Next.js, TypeScript, Tailwind, Styled-Components, performance
+            tuning, accessibility.
           </ListParagraph>
         </ListContainer>
       </ListItem>
