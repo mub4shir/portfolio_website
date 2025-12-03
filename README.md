@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-The Site is live at [alimubashir.com](https://www.alimubashir.com/)
+The Site is live at [alimubashir.com]()
 
 ![Screenshot](./public/images/2.webp)
 
