@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-The Site is live at [alimubashir.com]()
+The Site is live at [https://mubashlr.vercel.app/](https://mubashlr.vercel.app/)
 
 ![Screenshot](./public/images/2.webp)
 
